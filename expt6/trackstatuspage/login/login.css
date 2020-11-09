@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Syne Mono', monospace;
+}
+body{
+    background: url("../patrick-connor-klopf-pZcCZf9SqkE-unsplash.jpg") no-repeat;
+    background-size: 100vmax 800px;
+}
+header{
+    text-align: center;
+    background-color: brown;
+    color: rgb(250, 171, 75);
+    border: 2px solid grey;
+    box-shadow: 2px 2px rgb(238, 134, 134);
+}
+article{
+    /* background-color: rgb(79, 117, 117); */
+    /* border: 2px solid grey; */
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+}
+#id{
+    width: 46%;
+    height: 25px;
+    padding-left: 50px;
+    margin-bottom: 35px;
+}
+#weight{
+    width: 46%;
+    height: 25px;
+    padding-left: 50px;
+    margin-bottom: 35px;
+}
+#dimensions{
+    width: 46%;
+    height: 25px;
+    padding-left: 50px;
+    margin-bottom: 35px;
+
+}
+#submit{
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
