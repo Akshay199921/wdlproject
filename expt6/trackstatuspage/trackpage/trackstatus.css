@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0.1px;
+}
+body{
+    border: 3px solid black;
+}
+#header{
+    background-color: #8b0000;
+    border: 2px solid orange;
+    text-align: center;
+    color: #e1d391;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+section{
+    margin: 0px ;
+    height: 100vh;
+    background: url("./wicked-monday-jxhM5Ni46zw-unsplash.jpg") no-repeat;
+    background-size: 100vmax 800px;
+}
+.statusarea{
+    margin-top: 55px;
+    margin-left: 180px;
+    width: 36%;
+    height: 29px;
+    background-color: #eed6d6;
+    color: green;
+    border: 2px solid green;
+    line-height: 30px;
+}
+.statusbutton{
+    width: 100px;
+    height: 47px;
+    margin: 5px 40px;
+    background: darkblue;
+    color: #f7f3f3;
+    font-style: oblique;
+}
+.statusbutton:hover{
+    background-color: blue
+}
+
+#flyingbox{
+    position : absolute;
+    top: 200px;
+    left: 200px;
+    animation: myani;
+    background-color: brown;
+    color: black;
+    width: 450px;
+    height: 40px;
+    font-size: 25px;
+    border: 2px solid rgb(3, 3, 3);
+    box-shadow:3px 3px #f8f8f8 ;
+}
+
+@keyframes myani{
+    /* from {top:500px ;} */
+    from {left: 0px;}
+    to {left: 500px;}
+}
