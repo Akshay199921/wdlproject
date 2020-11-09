@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Track Status of Orders</title>
-    <link rel="stylesheet" href="./trackstatusshow.css">
+    <link rel="stylesheet" href="trackstatus.css">
 </head>
 <body>
     <div id="container">
-        <header id="header">
+    <header id="header">
             <h2>Track Your orders Here !</h2>
-        </header>
-        <section>
-            <input class="statusarea"></input>
-            <button class="statusbutton">Check Status</button>
-        </section>
-        <aside>
-            <div id="flyingbox">
-                <li>Enter your  track id and check your status</li>
-            </div>
-            <!-- place for showing data from database -->
-        </aside>
+    </header>
+    <section>
+        <form >
+            <input type="number" class="statusarea" value="trackid"></input>
+            <button type="submit " class="statusbutton">Check Status</button>
+        </form>
+
+        <div id="blankspace"></div>
+    </section>
+
+    <aside>
+        <div id="flyingbox">
+            <li>Enter your  track id and check your status</li>
+        </div>
+    </aside>
     
     </div>
 
