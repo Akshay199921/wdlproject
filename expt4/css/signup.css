@@ -1,0 +1,17 @@
+#rule{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    background-color: #daff7f36;
+    border: 2px dotted black;
+}
+#rule:hover{
+    cursor: pointer;
+}
+#fadein{
+    position: absolute;
+    right: 87px;
+    top: 230px;
+    background-color: #daff7f36;
+    border: 2px dotted black;
+}

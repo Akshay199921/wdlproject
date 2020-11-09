@@ -1,0 +1,30 @@
+body::after{
+    content: "";
+    background-image: url("../wicked-monday-jxhM5Ni46zw-unsplash.jpg") ;
+    background-size: cover;
+    opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  }
+
+  #signinform{
+      position: absolute;
+      top: 100px;
+      left: 100px;
+  }
+
+  #signupform{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#additemform{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
