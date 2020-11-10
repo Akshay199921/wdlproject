@@ -4,16 +4,22 @@
     font-family: 'Syne Mono', monospace;
 }
 body{
-    background: url("../patrick-connor-klopf-pZcCZf9SqkE-unsplash.jpg") no-repeat;
+    background: url("./patrick-connor-klopf-pZcCZf9SqkE-unsplash.jpg") no-repeat;
     background-size: 100vmax 800px;
 }
 header{
+    /* display: flex; */
+    /* flex-direction: row; */
     text-align: center;
+    text-shadow: 1px 1px black;
     background-color: brown;
     color: rgb(250, 171, 75);
     border: 2px solid grey;
     box-shadow: 2px 2px rgb(238, 134, 134);
+    justify-content: space-evenly;
 }
+
+
 article{
     /* background-color: rgb(79, 117, 117); */
     /* border: 2px solid grey; */
@@ -24,27 +30,29 @@ article{
     left: 300px;
 
 }
-#id{
+.inp{
     width: 46%;
     height: 25px;
-    padding-left: 50px;
+    padding-left: 35px;
     margin-bottom: 35px;
+    border-radius: 6px;
 }
-#weight{
-    width: 46%;
-    height: 25px;
-    padding-left: 50px;
-    margin-bottom: 35px;
+.inp:hover{
+    background-color: bisque;
 }
-#dimensions{
-    width: 46%;
-    height: 25px;
-    padding-left: 50px;
-    margin-bottom: 35px;
 
-}
 #submit{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(67, 148, 175);
+    color: white;
+    width: 200px;
     position: absolute;
     top: 200px;
-    left: 80px;
+    left: 0px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: deepskyblue;
+    color: gainsboro;
 }
